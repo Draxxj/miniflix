@@ -1,0 +1,18 @@
+{
+  "name": "miniflix-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend do MiniFlix para uploads e playback via VCDN",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
